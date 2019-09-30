@@ -1,1 +1,3 @@
-console.log('Can not see nothing!!!!!!!!!!!!!!!!!!!!!!!!!');
+import test from './test.js'
+
+console.log(test.foo);
