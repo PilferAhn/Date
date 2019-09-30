@@ -17,5 +17,13 @@ module.exports = {
                 presets:['react']
             },
         }]
-    }
+    },
+
+    devServer: {
+        contentBase: path.resolve(__dirname,'./client/dist'),
+        compress: true,
+        port: 8000
+      }
+
+
 };
